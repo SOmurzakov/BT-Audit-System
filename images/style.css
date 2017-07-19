@@ -1,0 +1,135 @@
+BODY {
+	margin: none;
+	padding: none;
+	background-color: #f3f3f3;
+	color: black;
+}
+P, BODY, TD  { 
+	font: normal 12px Tahoma;
+	line-height: 2em;
+}
+A {
+	color: #de6d28;
+	text-decoration: none;
+}
+IMG {
+	border: none;
+}
+.r {
+	float: right;
+}
+.l {
+	float: left;
+}
+.cl {
+	clear: both;
+}
+#head {
+	height: 179px;
+	background: #f3f3f3 url(/images/top_bg.png) repeat-x top left;
+}
+#menu {
+	background-color: #4c4847;
+	color: #de6d28;
+	font: bold 0.75em Arial;
+}
+#menu .l {
+	padding: 5px 5px 5px 5px;
+}
+#menu TD {
+	line-height: 29px;
+	font: normal 12px Tahoma;
+	text-align: center;
+	white-space: nowrap;
+}
+#menu TD A:hover {
+	color: #d65406;
+	text-decoration: underline;
+}
+#menu .active {
+	background: transparent url(/images/menu_active.png) no-repeat top center;
+	height: 21px;
+	text-align: center;
+}
+#menu2 {
+	background-color: white;
+}
+#menu2 TD {
+	text-align: center;
+}
+#menu2 A {
+	color: #4c4847;
+}
+
+#body {
+	background: white url(/images/pic_main.png) no-repeat top left;
+	height: 363px;
+}
+#body #pad {
+	padding: 10px 20px 10px 320px;
+}
+H1,H2, H3, H4, H5, H6 {
+	font: bold 18px Tahoma;
+	color: #de6d28;
+	margin: 20px 0 20px 0;
+	padding: none;
+}
+H2 { font-size: 14px; }
+H3 { font-size: 12px; }
+
+
+#bottom .l{
+	color: #767573;
+	font: normal 11px Tahoma;
+	padding: 15px 10px 10px 20px;
+}
+#bottom .r {
+	text-align: center;
+	font: bold 11px Tahoma;
+	color: #7b7776;
+}
+#bottom A{
+	color: #7b7776;
+}
+#bottom A:hover {
+	color: #de6d28;
+}
+#bottom .r IMG{
+	width: 150px;
+}
+.admin_table_sub {
+	padding-left: 35px;
+}
+.loginform {
+	padding: 10px 0px 5px 20px;
+	text-align: center;
+}
+.loginform .login {
+	width: 180px;
+}
+.loginform .pass {
+	width: 200px;
+}
+.loginform .submit {
+}
+#main {
+	padding: 10px 0 0 20px;
+}
+table.engagements {
+	width: 60%;
+	margin: 20px 0 20px 0;
+}
+table.engagements TH, table.workpapers {
+	font: bold 12px Arial;
+	
+}
+table.workpapers {
+	width: 97%;
+	margin: 20px 0 20px 0;
+}
+.eng_title {
+	width: 200px;
+}
+.eng_date {
+	width: 220px;
+}
